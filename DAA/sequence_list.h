@@ -34,11 +34,12 @@ namespace zy {
 		if (x != v.size())
 		{
 			printf(" v and x isn't match");
+			exit(1);
 		}
-		else {
+		
 			this->data = std::move(v);
 			this->length = x;
-		}
+		
 	}
 	//øΩ±¥ππ‘Ï
 	template<class T>

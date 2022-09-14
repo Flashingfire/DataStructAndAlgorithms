@@ -33,6 +33,9 @@
     <ClInclude Include="sequencelist_test.h">
       <Filter>头文件\linearlist_test</Filter>
     </ClInclude>
+    <ClInclude Include="single_linked_list_test.h">
+      <Filter>头文件\linearlist_test</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="test.cpp">
