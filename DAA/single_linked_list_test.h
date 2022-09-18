@@ -22,11 +22,19 @@ namespace zy {
 				SgNode<int>* v3 = mergeList<int>(v1, v2);
 				v3->print();
 
+				std::cout << "尾插法建立单链表" << std::endl;
+				int a[]{ 1,2,3,4 };
+				SgNode<int>* v4 = nullptr;
+				createlistR(v4, a, sizeof(a) / sizeof(a[1]));
+				//C++中没有直接得到数组大小的函数
+				v4->print();
 
-
-
-
-
+				std::cout << "头插法建立单链表" << std::endl;
+				int b[]{ 1,2,3,4 };
+				SgNode<int>* v5 = nullptr;
+				createlistF(v5, b, sizeof(b) / sizeof(b[1]));
+				//C++中没有直接得到数组大小的函数
+				v5->print();
 
 			}
 		}

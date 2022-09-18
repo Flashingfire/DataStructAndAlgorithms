@@ -71,6 +71,36 @@ namespace zy {
 		return res;
 	}
 
+	//尾插法建立单链表
+	//n个元素已经存在数组A中
+	template<class T>
+	void createlistR(SgNode<T>*& c, T a[], int n) {//注意使用指针的引用
+		SgNode<T>* s, * r;//s指向新申请的节点，r始终指向 c的终端节点
+		int i = 0;
+		c = new SgNode<T>();
+		r = c;//r指向头结点，也就是此时的终端节点
+		for (i = 0; i < n; i++) {//循环申请n个结点来接受数组a中的数据
+			s = new SgNode<T>(a[i]);
+			s->data = a[i];
+			r->next = s;
+			r = r->next;
+		}
+		r->next = NULL;//所有元素都装入链表后
+	}
+
+	//头插法建立单链表
+	template<class T>
+	void createlistF(SgNode<T>*& c,T a[],int n)
+	{
+			SgNode<T>* s=nullptr;
+			int i = 0;
+			c = new SgNode<T>();
+			for (int i = 0; i < n; i++) {
+				s = new SgNode<T>(a[i]);
+				s->next = c->next;
+				c->next = s;
+			}
+	}
 }
 
 
