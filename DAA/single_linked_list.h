@@ -25,6 +25,10 @@ namespace zy {
 				p = p->next;
 			}
 		}
+		~SgNode() {
+			data = 0;
+			next = nullptr;
+		}
 	public:
 		T data;//data中存放节点数据域 
 		SgNode* next;//指向后继结点的指针
@@ -100,6 +104,26 @@ namespace zy {
 				s->next = c->next;
 				c->next = s;
 			}
+	}
+
+	//查找链表中是否存在值为x的节点，若存在，删除并返回1，否则返回0
+	template<class T>
+	int findAndDelete(SgNode<T>* c, T x)
+	{
+		SgNode<T>* p = c;
+		//查找x是否存在
+		while (p->next != nullptr)
+		{
+			if (p->next->data == x)break;
+			p = p->next;
+		}
+		//删除
+		if (p->next == nullptr)return 0;
+		SgNode<T>* q = p->next;
+		p->next = p->next->next;
+		std::free(q);
+		q = nullptr;
+		return 1;
 	}
 }
 

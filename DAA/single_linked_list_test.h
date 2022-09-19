@@ -36,6 +36,15 @@ namespace zy {
 				//C++中没有直接得到数组大小的函数
 				v5->print();
 
+
+				SgNode<int>* v6 = new SgNode<int>();
+				SgNode<int>* p6 = v6;
+				for (int i = 0; i < 10; i += 2) {
+					p6->next = new SgNode<int>(i);
+					p6 = p6->next;
+				}
+				std::cout << findAndDelete(v6, 2) << std::endl;
+				v6->print();
 			}
 		}
 	}
