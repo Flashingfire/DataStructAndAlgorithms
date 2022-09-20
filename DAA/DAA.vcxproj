@@ -128,6 +128,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="double_linked_list.h" />
+    <ClInclude Include="double_linked_list_test.h" />
     <ClInclude Include="sequencelist_test.h" />
     <ClInclude Include="sequence_list.h" />
     <ClInclude Include="single_linked_list.h" />

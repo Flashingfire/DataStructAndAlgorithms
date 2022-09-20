@@ -1,2 +1,8 @@
 ﻿  test.cpp
+E:\Programming\DataStructAndAlogorithms\DAA\double_linked_list.h(49,6): warning C4101: “i”: 未引用的局部变量
+E:\Programming\DataStructAndAlogorithms\DAA\double_linked_list_test.h(11): message : 查看对正在编译的函数 模板 实例化“void zy::createDlistR<int>(zy::double_linked_list<int> *&,T [],int)”的引用
+          with
+          [
+              T=int
+          ]
   DAA.vcxproj -> E:\Programming\DataStructAndAlogorithms\DAA\x64\Debug\DAA.exe
