@@ -46,7 +46,6 @@ namespace zy {
 	void createDlistR(double_linked_list<T>*& L, T a[], int n)//对于指针的引用传递
 	{
 		double_linked_list<T>* s, * r;
-		int i;
 		L = (double_linked_list<T>*)malloc(sizeof(double_linked_list<T>));
 		L->prior = nullptr;//前驱指针
 		L->next = nullptr;
@@ -74,6 +73,31 @@ namespace zy {
 		}
 		return p;
 	}
+
+	//逆置问题
+	//逆置整个链表
+	template<class T>
+	void reverse(double_linked_list<T>** p)
+	{
+		//默认带有头节点
+		double_linked_list<T>* temp = nullptr;
+		double_linked_list<T>* current = *p;
+		//把默认头节点消除掉
+		current = current->next;
+		current->prior = nullptr;
+		while (current != nullptr)
+		{
+			temp = current->prior;
+			current->prior = current->next;
+			current->next = temp;
+			current = current->prior;
+		}
+
+		//修改头指针之前，先检测链表是否为空链表，或者只有一个节点的情况
+		if (temp != nullptr)
+			(*p)->next = temp->prior;
+	}
+
 
 }
 
