@@ -19,6 +19,12 @@
     <Filter Include="头文件\linearlist_test">
       <UniqueIdentifier>{2c8e54d6-b912-499a-a237-e3cb4bd8de4a}</UniqueIdentifier>
     </Filter>
+    <Filter Include="头文件\stackAndQueue">
+      <UniqueIdentifier>{6aa4fa58-95b9-4de5-914d-30b3d3030e39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\stackAndQueue_test">
+      <UniqueIdentifier>{fb548008-de59-456a-9b52-08759553c887}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="sequence_list.h">
@@ -38,6 +44,15 @@
     </ClInclude>
     <ClInclude Include="double_linked_list_test.h">
       <Filter>头文件\linearlist_test</Filter>
+    </ClInclude>
+    <ClInclude Include="stack.h">
+      <Filter>头文件\stackAndQueue</Filter>
+    </ClInclude>
+    <ClInclude Include="SeqStack.h">
+      <Filter>头文件\stackAndQueue</Filter>
+    </ClInclude>
+    <ClInclude Include="SeqStack_test.h">
+      <Filter>头文件\stackAndQueue_test</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
