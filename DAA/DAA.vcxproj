@@ -127,6 +127,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="chainStack.h" />
+    <ClInclude Include="chainStack_test.h" />
     <ClInclude Include="double_linked_list.h" />
     <ClInclude Include="double_linked_list_test.h" />
     <ClInclude Include="SeqStack.h" />

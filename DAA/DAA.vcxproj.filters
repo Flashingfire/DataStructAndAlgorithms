@@ -54,6 +54,12 @@
     <ClInclude Include="SeqStack_test.h">
       <Filter>头文件\stackAndQueue_test</Filter>
     </ClInclude>
+    <ClInclude Include="chainStack.h">
+      <Filter>头文件\stackAndQueue</Filter>
+    </ClInclude>
+    <ClInclude Include="chainStack_test.h">
+      <Filter>头文件\stackAndQueue_test</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="test.cpp">
