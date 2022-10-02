@@ -131,6 +131,9 @@
     <ClInclude Include="chainStack_test.h" />
     <ClInclude Include="double_linked_list.h" />
     <ClInclude Include="double_linked_list_test.h" />
+    <ClInclude Include="Queue.h" />
+    <ClInclude Include="SeqQueue.h" />
+    <ClInclude Include="SeqQueue_test.h" />
     <ClInclude Include="SeqStack.h" />
     <ClInclude Include="SeqStack_test.h" />
     <ClInclude Include="sequencelist_test.h" />

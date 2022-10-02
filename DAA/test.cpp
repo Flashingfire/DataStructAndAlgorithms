@@ -3,6 +3,7 @@
 #include"double_linked_list_test.h"
 #include"SeqStack_test.h"
 #include"chainStack_test.h"
+#include"SeqQueue_test.h"
 int main() {
 	using namespace zy;
 	
@@ -11,6 +12,7 @@ int main() {
 		//single_linked_list::test::single_linked_list_test();
 	//dblinked_list::test::dblinked_list_test();
 	//SeqStack_test::test();
-	chainStack_test::test();
+	//chainStack_test::test();
+	SeqQueue_test::test();
 	return 0;
 }

@@ -60,6 +60,15 @@
     <ClInclude Include="chainStack_test.h">
       <Filter>头文件\stackAndQueue_test</Filter>
     </ClInclude>
+    <ClInclude Include="SeqQueue.h">
+      <Filter>头文件\stackAndQueue</Filter>
+    </ClInclude>
+    <ClInclude Include="Queue.h">
+      <Filter>头文件\stackAndQueue</Filter>
+    </ClInclude>
+    <ClInclude Include="SeqQueue_test.h">
+      <Filter>头文件\stackAndQueue_test</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="test.cpp">
