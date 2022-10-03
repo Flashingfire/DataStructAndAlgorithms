@@ -4,6 +4,7 @@
 #include"SeqStack_test.h"
 #include"chainStack_test.h"
 #include"SeqQueue_test.h"
+#include"CString_test.h"
 int main() {
 	using namespace zy;
 	
@@ -13,6 +14,7 @@ int main() {
 	//dblinked_list::test::dblinked_list_test();
 	//SeqStack_test::test();
 	//chainStack_test::test();
-	SeqQueue_test::test();
+	//SeqQueue_test::test();
+	CString_test::test();
 	return 0;
 }

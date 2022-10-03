@@ -102,7 +102,7 @@
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
       <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
     </ClCompile>
     <Link>
@@ -129,6 +129,8 @@
   <ItemGroup>
     <ClInclude Include="chainStack.h" />
     <ClInclude Include="chainStack_test.h" />
+    <ClInclude Include="CString.h" />
+    <ClInclude Include="CString_test.h" />
     <ClInclude Include="double_linked_list.h" />
     <ClInclude Include="double_linked_list_test.h" />
     <ClInclude Include="Queue.h" />

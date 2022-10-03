@@ -25,6 +25,12 @@
     <Filter Include="头文件\stackAndQueue_test">
       <UniqueIdentifier>{fb548008-de59-456a-9b52-08759553c887}</UniqueIdentifier>
     </Filter>
+    <Filter Include="头文件\String">
+      <UniqueIdentifier>{617ddf72-35e0-4078-8b93-3e9c51e24f82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\String_test">
+      <UniqueIdentifier>{77f5825a-7a0b-462e-b57d-d350d7a6eab1}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="sequence_list.h">
@@ -68,6 +74,12 @@
     </ClInclude>
     <ClInclude Include="SeqQueue_test.h">
       <Filter>头文件\stackAndQueue_test</Filter>
+    </ClInclude>
+    <ClInclude Include="CString.h">
+      <Filter>头文件\String</Filter>
+    </ClInclude>
+    <ClInclude Include="CString_test.h">
+      <Filter>头文件\String_test</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
