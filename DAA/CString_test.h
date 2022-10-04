@@ -1,6 +1,7 @@
 #pragma once
 #include"CString.h"
-
+#include"String_pattern_matching.h"
+#include<time.h>
 namespace zy {
 	namespace CString_test {
 		void test() {
@@ -22,6 +23,15 @@ namespace zy {
 			cout << "str4.size" << str4.size() << endl;
 			cout << "str4.c_str()" << str4.c_str() << endl;
 
+
+			cout << "简单模式匹配" << endl;
+			string str = "ABABCABCACBAB";
+			string substr = "ABCAC";
+			cout << "主串:" << str << endl;
+			cout << "子串(模式串)" << substr << endl;
+			clock_t start = clock();
+			cout << "匹配位置为:" << simple_pattern_matching(str, substr) << endl;
+			cout << "用时：ms" << (double)(clock() - start) << endl;
 		}
 	}
 }

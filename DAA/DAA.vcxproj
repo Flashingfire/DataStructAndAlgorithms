@@ -143,6 +143,7 @@
     <ClInclude Include="single_linked_list.h" />
     <ClInclude Include="single_linked_list_test.h" />
     <ClInclude Include="stack.h" />
+    <ClInclude Include="String_pattern_matching.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="test.cpp" />

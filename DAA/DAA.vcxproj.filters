@@ -81,6 +81,9 @@
     <ClInclude Include="CString_test.h">
       <Filter>头文件\String_test</Filter>
     </ClInclude>
+    <ClInclude Include="String_pattern_matching.h">
+      <Filter>头文件\String</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="test.cpp">
