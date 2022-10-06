@@ -31,7 +31,15 @@ namespace zy {
 			cout << "子串(模式串)" << substr << endl;
 			clock_t start = clock();
 			cout << "匹配位置为:" << simple_pattern_matching(str, substr) << endl;
-			cout << "用时：ms" << (double)(clock() - start) << endl;
+			cout << "用时(ms):" << (double)(clock() - start) << endl;
+
+
+			cout << "KMP算法" << endl;
+			cout << "主串:" << str << endl;
+			cout << "子串(模式串)" << substr << endl;
+			int* next=new int(substr.length());
+			cout << "匹配位置为:" << KMP(str,substr,next) << endl;
+			
 		}
 	}
 }

@@ -127,6 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="bin_tree.hpp" />
     <ClInclude Include="chainStack.h" />
     <ClInclude Include="chainStack_test.h" />
     <ClInclude Include="CString.h" />

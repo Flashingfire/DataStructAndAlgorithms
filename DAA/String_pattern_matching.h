@@ -49,25 +49,30 @@ void getNext(string str,int next[]) {
 			}
 		}
 	}
+	cout << "next数组为" << endl;
+	for (int i = 0; i < str.length(); ++i) {
+		cout << next[i] << ",";
+	}
+	cout << endl;
 }
 int KMP(string str, string substr, int next[]) {
 	getNext( substr, next);
+	
 	int i = 0, j = 0;
 	//KMP中只需要遍历一次主串，不需要回溯
-	while (i < str.length()) {
+	while (i < str.length()&&j<substr.length()) {
 		if (str[i] == substr[j])
 		{
 			i += 1;
 			j += 1;
-		}
+		} 
 		else {
 			if (j > 0)//字符匹配失败，使用next数组
-				j = next[j - 1];
+				j = next[j-1];
 			else//第一个字符就不匹配
 				i += 1;
 		}
-		if (j == substr.length() - 1)
-			return i - j+1;
 	}
-
+	cout << i << "," << j;
+	return i - j;
 }

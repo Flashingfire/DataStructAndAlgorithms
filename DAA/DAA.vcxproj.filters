@@ -31,6 +31,9 @@
     <Filter Include="头文件\String_test">
       <UniqueIdentifier>{77f5825a-7a0b-462e-b57d-d350d7a6eab1}</UniqueIdentifier>
     </Filter>
+    <Filter Include="头文件\bin_tree">
+      <UniqueIdentifier>{0d405bb1-3d8a-4711-8b91-b74ddd5695f1}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="sequence_list.h">
@@ -83,6 +86,9 @@
     </ClInclude>
     <ClInclude Include="String_pattern_matching.h">
       <Filter>头文件\String</Filter>
+    </ClInclude>
+    <ClInclude Include="bin_tree.hpp">
+      <Filter>头文件\bin_tree</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
