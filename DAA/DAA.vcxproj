@@ -127,6 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="BinSearch.h" />
     <ClInclude Include="bin_tree.hpp" />
     <ClInclude Include="chainStack.h" />
     <ClInclude Include="chainStack_test.h" />
@@ -137,6 +138,7 @@
     <ClInclude Include="Queue.h" />
     <ClInclude Include="SeqQueue.h" />
     <ClInclude Include="SeqQueue_test.h" />
+    <ClInclude Include="SeqSearch.h" />
     <ClInclude Include="SeqStack.h" />
     <ClInclude Include="SeqStack_test.h" />
     <ClInclude Include="sequencelist_test.h" />

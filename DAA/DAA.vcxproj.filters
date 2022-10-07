@@ -34,6 +34,9 @@
     <Filter Include="头文件\bin_tree">
       <UniqueIdentifier>{0d405bb1-3d8a-4711-8b91-b74ddd5695f1}</UniqueIdentifier>
     </Filter>
+    <Filter Include="头文件\Search">
+      <UniqueIdentifier>{00d2411a-be6b-4a8a-890f-088ccdbd3fad}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="sequence_list.h">
@@ -89,6 +92,12 @@
     </ClInclude>
     <ClInclude Include="bin_tree.hpp">
       <Filter>头文件\bin_tree</Filter>
+    </ClInclude>
+    <ClInclude Include="SeqSearch.h">
+      <Filter>头文件\Search</Filter>
+    </ClInclude>
+    <ClInclude Include="BinSearch.h">
+      <Filter>头文件\Search</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
